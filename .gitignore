@@ -1,0 +1,59 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+financetools_env/
+ENV/
+env/
+*.egg-info/
+dist/
+build/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+*.sublime-project
+*.sublime-workspace
+
+# 敏感信息
+.env
+*.key
+*.pem
+config.local.py
+secrets.json
+*.local
+
+# 数据文件（敏感数据）
+data/stock_list.json
+data/history/*.csv
+data/strategies/*.json
+data/transactions/*.csv
+
+# 日志
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# 测试输出
+etf_list.txt
+*.csv
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Vue
+vue-frontend/dist/
+vue-frontend/.env.local

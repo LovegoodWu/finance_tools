@@ -1,0 +1,12 @@
+# Grid Trading Strategy Management System
+# 网格策略管理系统依赖
+
+# Data
+baostock>=0.8.9
+pandas>=2.0.0,<3
+
+# Utils
+python-dateutil>=2.8.2
+
+# Financial calculations
+scipy>=1.10.0
